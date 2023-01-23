@@ -11,6 +11,6 @@ fun main(){
     // int -> String
     // boolean -> string  "true"
 
-
+//    val number : Int =  readLine().toInt()
 
 }
