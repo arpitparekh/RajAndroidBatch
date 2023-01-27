@@ -2,7 +2,7 @@ fun main() {
 
 
     // while
-    // do..while
+    // do.while
     // for
 
     for(i in 0..10000){
