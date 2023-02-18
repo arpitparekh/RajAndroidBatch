@@ -33,7 +33,7 @@ fun main() {
     println(result)  // result will return unit
 
 
-    println(readLine()!!.toDouble())   // number datatype
+    println(readln().toDouble())   // number datatype
 
     "34.56"
 

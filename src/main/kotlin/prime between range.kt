@@ -1,7 +1,7 @@
 fun main() {
 
-    val n1 = readLine()!!.toInt()  //  20
-    val n2 = readLine()!!.toInt()  // 100
+    val n1 = readln().toInt()  //  20
+    val n2 = readln().toInt()  // 100
 
     var flag = true
 

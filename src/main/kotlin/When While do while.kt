@@ -11,7 +11,7 @@ fun main() {
 
     // find the reverse of the number  // 4567
 
-    val number = readLine()!!.toInt()
+    val number = readln().toInt()
     
 
 }

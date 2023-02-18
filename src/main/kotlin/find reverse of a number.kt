@@ -4,7 +4,7 @@ fun main() {
 
     // palindrome number  // 12321  // 121  // 212  // 123454321
 
-    var a = readLine()!!.toInt()  // 1234
+    var a = readln().toInt()  // 1234
     var reverse = 0
     val originalValue = a
 
@@ -26,8 +26,6 @@ fun main() {
 
         }
         println(reverse)
-
-
         if(reverse==originalValue){
             println("number is palindrome")
         }else{

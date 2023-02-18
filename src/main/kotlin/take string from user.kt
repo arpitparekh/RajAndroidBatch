@@ -1,6 +1,6 @@
 fun main(){
 
     // readLine()
-    val a = readLine()
+    val a = readlnOrNull()
     println(a)
 }

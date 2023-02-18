@@ -1,6 +1,6 @@
 fun main() {
 
-    val number = readLine()!!.toInt()   // 5867
+    val number = readln().toInt()   // 5867
 
     // 45  // 5
 

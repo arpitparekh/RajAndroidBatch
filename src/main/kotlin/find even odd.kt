@@ -1,6 +1,6 @@
 fun main() {
 
-    if(readLine()!!.toInt()%2==1) println("value is odd") else println("value is even")
+    if(readln().toInt()%2==1) println("value is odd") else println("value is even")
 
 
 //    if(readLine()?.toInt() is Int){

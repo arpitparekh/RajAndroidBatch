@@ -2,7 +2,7 @@ fun main() {
 
 //    val email = "arpitparekh9@gmail.com"
 
-    val str = readLine()
+    val str = readlnOrNull()
 
     val number = 23
 

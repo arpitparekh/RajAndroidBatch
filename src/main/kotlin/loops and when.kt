@@ -5,13 +5,13 @@ fun main() {
     while(true) {   // infinite
 
         println("Please Enter Value")
-        val x = readLine()!!.toInt()
+        val x = readln().toInt()
         println("Please Another Value")
-        val y = readLine()!!.toInt()
+        val y = readln().toInt()
 
         println("Please Enter + - / * to perform operation")
 
-        when (readLine()) {
+        when (readlnOrNull()) {
 
             "+" -> println("sum is ${x + y}")   // $x  // {x*10+y}
             "-" -> println("sub is ${x - y}")
@@ -22,7 +22,7 @@ fun main() {
 
         println("please enter 1 to continue and 0 to exit")
 
-        val number = readLine()!!.toInt()
+        val number = readln().toInt()
 
         if(number==0){
             exitProcess(0)

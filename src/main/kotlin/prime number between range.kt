@@ -2,8 +2,8 @@ fun main() {
 
     // prime number
 
-    var r1 = readLine()?.toInt()
-    var r2 = readLine()?.toInt()
+    var r1 = readlnOrNull()?.toInt()
+    var r2 = readlnOrNull()?.toInt()
 
     var flag = false
 
